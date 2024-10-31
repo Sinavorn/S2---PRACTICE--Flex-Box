@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice-3</title>
+    <style>
+        .header{
+            background-color: hsl(0, 0%, 100%);
+
+        }
+        .header h2{
+            background-color: hsl(210, 93%, 59%);
+            color: #fff;
+            border-radius: 0.5rem;
+            padding: 1em;
+        }
+        .middle{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            height: 100vh;
+        }
+        .main{
+            background-color: hsl(147, 64%, 58%);
+            color: #fff;
+            border-radius: 0.5rem;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .item{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item i{
+            background-color: hsl(147, 47%, 38%);
+            color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: hsl(147, 50%, 27%);
+            display: flex;
+            padding: 2em;
+            gap: 5px;
+            margin: 1em;
+        }
+        .sidebar{
+            background-color: hsl(9, 77%, 66%);
+            color: #fff;
+            border-radius: 0.5rem;
+            width: 10em;
+            padding: 1em;
+        }
+
+        .footer h2{
+            background-color: hwb(225 38% 1%);
+            color:white;
+            border-radius: 0.5rem;
+            padding: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="header">
+            <h2>Header</h1>
+
+        </div>
+        <div class="middle">
+            <div class="main">
+                <h2>Main</h2>
+                <div class="item">
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                    <i>Item</i>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <h2>Sidebar</h2>
+            </div>
+
+        </div>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
